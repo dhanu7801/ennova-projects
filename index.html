@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Cart
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Digital Panel Meter</a></li>
+                                    <li><a class="dropdown-item" href="#">Multifunction Meter</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Hero's Section -->
+
+    <div class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="./img/victor-aznabaev-pjTU9Edzc1g-unsplash.jpg" class="d-block w-100 myimg" alt="...">
+                    <div
+                        class="carousel-caption d-none d-md-flex top-0 flex-column justify-content-center align-items-start bottom-0 start-1 margin">
+                        <h2 class="fw-bold text-light fst-italic fs-2">Welcome to </h2>
+                        <h2 class="fw-bold text-light fs-1">ENNOVA TECHNOLOGY</h2>
+                        <p class="text-warning fs-5">Your Problem Our Smart Solution</p>
+                        <button type="button" class="btn btn-danger btn-lg">Learn More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/pexels-maarten-van-den-heuvel-4254896.jpg" class="d-block w-100 myimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block top">
+                        <h2 class="fw-bold text-light fs-1 fst-italic">Manufactures All Types of Control Panels</h2>
+                        <p class="text-warning fs-5 fst-italic">There are numerous types of industrial control panels
+                            used
+                            to operate the wide range of equipment found in manufacturing facilities across the globe.
+                            Each of these control panel types contain different components that drive or execute
+                            programmed functions such as turning equipment on or off, controlling motor speed, directing
+                            various movements, opening or closing valves, and many other operations.</p>
+                        <button class="btn text-danger fs-5 fst-italic">Learn More</button>>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/crystal-kwok-XUEdfpPIhXg-unsplash.jpg" class="d-block w-100 myimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block top">
+                        <h2 class="fw-bold text-light fs-1 fst-italic">Industrial Data Analytic Solution</h2>
+                        <p class="text-warning fs-4 fst-italic">Data analytics enables information technology companies
+                            to automate production management</p>
+                        <button class="btn text-danger fs-5 fst-italic">Learn More</button>>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="mt">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 bg-danger ">
+
+                    <h2 class="text-light text-center mt-5">We are the best full-service firm </h2>
+                    <p class="text-light p-4 ">The company has its own research and development (R & D) setup.
+                        Here we design and develop new products based on the need of the market.
+                        Since the formation of the company, our R & D lab has provided many break-through solutions to
+                        the industry.
+                        We are manufacturer of all types of electrical control panels-PCC Panels,MCC Panels,VFD
+                        Panels,SPM panels.
+                        We provide electronic based industrial automation,Home automation and Industrial data anaalytics
+                        solutions.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center flex-column ">
+                    <img src="./img/IMG-20211009-WA0001-scale-2.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product -->
+    <div class="container mt-5 " id="product">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Digital Panel Meters :</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="./ammeter.html" class="line">
+                    <div class="card">
+                        <img src="./img/Ammeter.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Ammeters <br> Available in 4 Digit LED
+                                as
+                                well as LCD display with bargraph indication. Available in 4 different sizes to meet
+                                various
+                                application needs. Rated current 6.2A max</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3">
+                <a href="/volt.html" class="line">
+                    <div class="card line">
+                        <img src="./img/voltmeter.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light line">Voltmeters <br> Available in 3 & 4 Digit
+                                LED
+                                as well as LCD display with bargraph indication. Available in 4 different sizes to meet
+                                various application needs. Can measure upto 516V max</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="./va.html" class="line">
+                    <div class="card">
+                        <img src="./img/Volt Amp meter.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text text-center fw-bold text-light">Volt Amp Meter <br><br> Amp meters are
+                                available in 3 digit
+                                dual color LED display with voltage and current measurement available in single meter.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <div class="card" line>
+                    <img src="./img/indicator.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark">
+                        <p class="card-text text-center fw-bold text-light"> Indicator <br> 4 Digits Dual Display
+                            Process Indicator,
+                            with Graphical Representation,4*DI, optional RS485 Communication 90 to 270V AC / DC supply,
+                            CE & RoHS certified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="./"><img src="./img/APFC.jpg" class="card-img-top" alt="..."></a>
+
+                    <div class="card-body bg-dark">
+                        <p class="card-text fw-bold text-center text-light ">APFC Meter <br> Automatic Power Factor
+                            Controller Save energy, maintain power factor to avoid penalties. These APFC are single CT
+                            with zero programming. Available in 2 Display options of LED and LCD</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/mpf.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark">
+                        <p class="card-text fw-bold text-center text-light">MFM <br>Multifunction meters in LED and LCD
+                            options for monitoring True RMS Parameters suitable for EMS applications Multifunction
+                            meters that could dramatically reduce the wiring and installation time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/relay model.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark ">
+                        <p class="card-text text-center fw-bold text-light">Relay Module <br> is an electrical control
+                            device, which
+                            has the interaction between the input circuit and the output circuit. It plays the role of
+                            automatic adjustment, safety protection and conversion circuit in the circuit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+    </div>
+    <!--  clients -->
+    <div id="client container-fluid">
+        <h1 class="text-center mt-5">Some Of Our Clients</h1>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="mycard">
+                        <img src="./img/AMY Electronics Instruments,Sangli.jpg" class="img-fluid mt-2 mr-1" alt="">
+
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="mycard">
+                        <img src="./img/Chintamani Motors Sangli.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="mycard">
+                        <img src="./img/Dandekar Brothers.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="mycard">
+                        <img src="./img/images (23).jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mycard">
+                        <img src="./img/SP Concare Private Limited.jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer " class="container-fluid bg-dark  ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light  fst-italic">About Us</h5>
+                    <p class="text-light mt-4">The company has its own research and development (R & D) setup.
+                        Here we design and develop new products based on the need of the market.
+                        Since the formation of the company, our R & D lab has provided many break-through solutions to
+                        the industry.</p>
+                    <div class="text  ms-5">
+                        <i class="fa-brands fs fa-facebook p-1"></i>
+                        <i class="fa-brands fs fa-linkedin p-1"></i>
+                        <i class="fa-brands fs fa-instagram p-1"></i>
+                        <i class="fa-brands fs fa-youtube p-1"></i>
+                    </div>
+
+                    <a href="https://www.facebook.com/profile.php?id=100063876886966"><i
+                            class="fa-brands fs fa-facebook p-1" style="color: #f1f2f3;"></i></a>
+                    <a href=""> <i class=" fs fa-brands fa-linkedin p-1" style="color: #fafcff;"></i></a>
+                    <a href="https://youtube.com/@ennovatechnology1286"><i class="fs fa-brands fa-youtube p-1"
+                            style="color: #f7f7f7;"></i></a>
+                    <a href="https://instagram.com/ennova_technology?igshid=YmMyMTA2M2Y="><i
+                            class=" fs fa-brands fa-instagram p-1" style="color: #fafcff;"></i></a>
+
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic">Recent News</h5>
+                    <div class="d-flex flex-column mt-4 ms-5">
+                        <a href="" class="text-light text-decoration-none mt-1 "><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Sem Ports Mollis
+                            Parturient</a>
+                        <a href="" class="text-light text-decoration-none mt-2  "><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Nullam Lorem
+                            Mattis Purus</a>
+                        <a href="" class="text-light text-decoration-none mt-2 "><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Nibh Sem
+                            Ullamcorper</a>
+                        <a href="" class="text-light text-decoration-none mt-2 "><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Donec Luctus
+                            imper diet</a>
+                        <a href="" class="text-light text-decoration-none mt-2"><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Magna pars
+                            studiorum</a>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic ">Contact Info</h5>
+                    <div class="ms-5">
+                        <p class="text-light text-center mt-4"> ENNOVA Technology,Sangli Behind Indian Oil Petrol
+                            pump,Kupwad MIDC
+                        <p></p>
+                        <p class="text-light text-center me-4"> <i class="fa-solid fa-phone "
+                                style="color: #f1f4f9;"></i> Amol Chavan <br> 8830458682</p>
+                        <p class="text-light text-center me-4"><i class="fa-solid fa-phone" style="color: #f0f2f4;"></i>
+                            Aniruddha Shinde <br> 7972911543 </p>
+                        <p class="text-light text-center me-3 "><i class="fa-solid fa-envelope "
+                                style="color: #f7f9fd;"></i>purchase.ennovatech@gmail.com</p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic">Business Overview</h5>
+                    <div class=" text d-flex ms-5 flex-column mt-4 ">
+                        <a href="" class="text-light p-1 text-decoration-none"><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Attorneys</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Practise Area</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Careers</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Honors &
+                            Awards</a>
+                        <a href="" class="text-light p-1 text-decoration-none"> <i
+                                class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Q & A</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

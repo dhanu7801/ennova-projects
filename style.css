@@ -87,4 +87,70 @@ p:hover, h1:hover, a:hover,i:hover {
     background-color:rgba(0, 0, 0, 0.178);
   }
 
+/*
+changes by ankita
+*/
+
+
+.panel h1{
+    margin-left: 5rem;
+}
+.pcc h2{
+    margin-left: 5rem;
+}
+
+.pcc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+/* .pcc1 p{
+    margin-right: 20rem;
+} */
+
+.mcc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.mcc h2{
+    margin-left: 5rem;
+}
+
+.plc h2{
+    margin-left: 5rem;
+}
+
+.plc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.APFC h2{
+    margin-left: 5rem;
+}
+
+.APFC1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+
+.product:hover{
+background-color: rgba(0, 0, 0, 0.176);
+}
+
+
+
   
